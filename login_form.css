@@ -1,0 +1,71 @@
+/* 3. Create an external stylesheet to design the login form from q.no.2 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d35400;
+}
+
+#form {
+  background-color: #1abc9c;
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+label,
+input {
+  display: block;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+}
+
+label {
+  color: white;
+  margin-bottom: 2px;
+}
+
+input {
+  color: black;
+  padding: 8px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.error {
+  border: 2px solid red;
+}
+
+.success {
+  border: 2px solid green;
+}
+
+#username-validation,
+#password-validation {
+  display: none;
+  color: red;
+}
+
+#submit-button {
+  border: 0;
+  outline: 0;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+#submit-button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  transition: all 0.5s linear;
+}
